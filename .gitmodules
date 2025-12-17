@@ -1,12 +1,16 @@
 [submodule "gdi-core/ADELE-Funnel"]
 	path = gdi-core/funnel-sk
-	url = https://github.com/BioData-PT/ADELE-Funnel
+	url = https://github.com/ruibinliu/ADELE-Funnel
+	branch = main
 [submodule "gdi-core/rems"]
 	path = gdi-core/rems
-	url = https://github.com/BioData-PT/ADELE-REMS
+	url = https://github.com/ruibinliu/ADELE-REMS
+	branch = main
 [submodule "gdi-core/storage-interfaces"]
 	path = gdi-core/storage
-	url = https://github.com/BioData-PT/ADELE-S-I
+	url = https://github.com/ruibinliu/ADELE-S-I
+	branch = main
 [submodule "ADELE"]
 	path = ADELE
-	url = https://github.com/BioData-PT/ADELE
+	url = https://github.com/ruibinliu/ADELE
+	branch = master

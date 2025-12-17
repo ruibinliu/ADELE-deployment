@@ -1,6 +1,6 @@
 instance:
-  clientUrl: http://localhost:8667
-  persistentUrl: http://localhost:8667
+  clientUrl: https://fdp.tre.singou.net
+  persistentUrl: https://fdp.tre.singou.net
 
 repository:
     type: 5
