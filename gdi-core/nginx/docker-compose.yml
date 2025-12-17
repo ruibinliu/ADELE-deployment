@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: nginx:latest
+    image: nginx:1.29.4
     restart: unless-stopped
     networks:
       - tre-core
@@ -28,7 +28,7 @@ services:
         condition: service_started
 
   certbot:
-    image: certbot/certbot
+    image: certbot/certbot:v5.2.2
     volumes:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
